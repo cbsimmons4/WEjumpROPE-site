@@ -14,13 +14,12 @@
         <link rel="stylesheet" href="css/styles.css">
         
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-
-        <title>WEjumpROPE</title>
         <link rel="shortcut icon" href="assets/w-logo.png" type="image/png">
+        <title>WEjumpROPE</title>
     </head>
     <body>
         
-        <div>
+        <div> 
 <!--NAV BAR-->
             <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
                 <a class="navbar-brand" href="index.html">
@@ -36,7 +35,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
@@ -52,12 +51,34 @@
                 </div>
             </nav>
                
-<!--About content-->
-            <div class = "row">
-                <div class = "col-12">
-                    <h1>This is the Contact page</h1>
+<!--Contact content-->
+            
+            <div class = "container-fluid section-red-g">
+                
+                  <div class = "row">
+                    <div class = "col-12 contact-shop-header">
+                        <div class ="row">
+                            <div class ="col-12">
+                               <h1>Contact WEjumpROPE:</h1>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class = "col-12">
+                        <form
+                          action="https://formspree.io/xrgkobqr"
+                          method="POST">
+                          <label>
+                            <input type="text" name="_replyto" placeholder="email">
+                          </label>
+                          <label>
+                            <textarea name="message" placeholder="message"></textarea>
+                          </label>
+                          <button class ="btn btn-dark submit-button" type="submit">Send</button>
+                        </form>
+                    </div>
                 </div>
-            </div>     
+            </div>
+            
 <!--END Container -->
         </div>    
 <!--Footer-->
@@ -86,7 +107,8 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js" ></script> 
+        <script src ="./javascript/main.js"></script>
+        <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js" ></script>
     </body>
     
 </html>
