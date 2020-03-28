@@ -26,7 +26,6 @@ html {
 }
 
 .jumbo-paragraph {
-    height: 0;
     width: 70%;
     margin: auto;
     font-size: 300%;
@@ -40,7 +39,6 @@ html {
     background: rgb(255,0,0);
     background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(196,10,10,1) 29%, rgba(105,6,6,1) 94%);
     padding-bottom: 60px;
-    min-height: 800px;
 }
 
 .section-dark {
@@ -59,7 +57,7 @@ html {
 }
 
 .home-about-wejr {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 2;
     font-family: 'Asap Condensed', sans-serif;
 }
@@ -144,48 +142,72 @@ html {
 
 /*About Services Styles*/
 .here-link {
-    color: #fff;
+    color:dodgerblue;
     
 }
 
-.about-services-content {
-    text-align: center;
+.black {
+    background-color:dimgrey;
+    padding: 30px;
 }
 
 /*About page CSS*/
 .about-services-header {
     color: #fff;
-    padding-top: 50px
+    padding-top: 40px;
+    text-align: center;
 }
 
 .about-services-header img {
-    width: 200px;
+    width: 130px;
     font-family: 'Asap Condensed', sans-serif;
-    font-weight: 900
+    font-weight: 900;
 }
 
 .about-services-p {
     color: #fff;
     font-family: 'Asap Condensed', sans-serif;
-    font-size: 30px;
-    padding: 50px;
+    font-size: 20px;
+    text-align: center;
 }
 
 .about-services-p img {
     display: block;
     margin: auto;
     box-shadow: 2px 2px 5px 5px rgba(255,255,255,.5), -2px -2px 5px 5px rgba(255,255,255,.5);
-    width: 25%;
-    min-width: 400px;
+    width: 30%;
+    min-width: 300px;
 }
 
 .p-head{
-   font-size: 35px; 
-    padding-top: 50px;
+   font-size: 25px; 
+    padding-top: 20px;
 }
 
 
 /*Shop page CSS*/
+
+.item-option-bar {
+ padding: 30px;
+}
+
+.item-option-bar .dropdown {
+ padding: 30px;
+}
+
+
+.dropdown a {
+    font-size: 25px;
+    width: 200px;
+}
+
+
+
+.shop-header{
+    font-size: 70px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
 .card {
     display: block;
     margin: auto;
@@ -223,7 +245,7 @@ label, input, textarea {
 
 textarea {
     width: 60%;
-    min-width: 400px;
+    min-width: 335px;
     text-align: left;
     min-height: 200px
 }
@@ -241,8 +263,6 @@ input {
     margin-top: 50px;
     width: 200px;
 }
-
-
 
 
 /**/

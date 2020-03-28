@@ -38,10 +38,13 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
+                            <a class="nav-link" href="index.html#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
+                            <a class="nav-link" href="index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#videos">Videos</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Shop<span class="sr-only">(current)</span></a>
@@ -56,62 +59,118 @@
 <!--Shop content-->
             <div class = "container-fluid section-red-g">
                 <div class = "row">
+                    
+                    <div class = "col-12 item-option-bar">
+                                              
+                                 <div class="dropdown">
+                                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Item Options
+                                      </a>
+
+                                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item" href="shop.html#Tshirt">T-shirt</a>
+                                        <a class="dropdown-item" href="shop.html#Fanny">Fanny Packs</a>
+                                        <a class="dropdown-item" href="shop.html#hand-delivery">WEjumpROPE Hand Delivery</a>
+                                      </div>
+                                    </div>
+                    </div>
+                                        
                     <div class = "col-12 contact-shop-header">
-                        <div class ="row">
-                            <div class ="col-12">
-                               <h1>Shop</h1>
-                            </div>
-                        </div>
-                    </div>     
-                     <div class = "col-md-6 col-lg-4">
-                         <div class="card" style="width: 20rem;">
-                          <img class="card-img-top" src="./assets/icons/insta.png" alt="Card image cap">
+                        
+                        <h1 class = "shop-header">WEjumpROPE<br>Shop</h1>
+                    </div>  
+                    
+<!--    T-SHIRT                -->
+                     <div class = "col-12" id = "Tshirt">
+                         <div class="card" style="width: 40%; min-width: 300px ">
+                          <img class="card-img-top" src="./assets/shop/shop-shirt.gif" alt="Card image cap">
                           <div class="card-body">
-                            <h5 class="card-title">@wejumprope Instagram</h5>
-                            <p class="card-text">Do you want to perchase the wejmprope instagram page? Well now you can for the affodable price of like $7,000,000. Great Price :) </p>
+                            <h5 class="card-title">WEjumpROPE T-Shirt (15$)</h5>
+<!--                              Description Here-->
+                            <p class="card-text"></p>
                               <div class = "add-to-cart">
-                                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                    <input type="hidden" name="cmd" value="_s-xclick">
-                                    <input type="hidden" name="hosted_button_id" value="Y5ETVBKK9KEDY">
-                                    <table>
-                                    <tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
-                                        <option value="Red">Red $10.00 USD</option>
-                                    </select> </td></tr>
-                                    <tr><td><input type="hidden" name="on1" value="Sizes">Sizes</td></tr><tr><td><select name="os1">
-                                        <option value="S">S </option>
-                                        <option value="M">M </option>
-                                        <option value="L">L </option>
-                                    </select> </td></tr>
-                                    </table>
-                                    <input type="hidden" name="currency_code" value="USD">
-                                    <input class = "add-to-cart-button" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-                                </form>
+                                  
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="5KZM2GEYE8DAL">
+<table>
+<tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
+	<option value="Red">Red $15.00 USD</option>
+</select> </td></tr>
+<tr><td><input type="hidden" name="on1" value="Sizes">Sizes</td></tr><tr><td><select name="os1">
+	<option value="S">S </option>
+	<option value="M">M </option>
+	<option value="L">L </option>
+	<option value="XL">XL </option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" class ="add-to-cart-button" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
                               </div>
                           </div>
                         </div>
                     </div>  
                     
-                    <div class = "col-md-6 col-lg-4">
-                         <div class="card" style="width: 20rem;">
-                          <img class="card-img-top" src="./assets/icons/insta.png" alt="Card image cap">
+                    
+<!--    FANNY PACK                 -->
+                    <div class = "col-12" id = "Fanny">
+                         <div class="card" style="width: 40%; min-width: 300px ">
+                          <img class="card-img-top" src="./assets/coming-soon.png" alt="Card image cap">
                           <div class="card-body">
-                            <h5 class="card-title">@wejumprope Instagram</h5>
-                            <p class="card-text">Do you want to perchase the wejmprope instagram page? Well now you can for the affodable price of like $7,000,000. Great Price :) </p>
-                            <a href="#" class="btn btn-primary">Buy this thing, yay!</a>
+                            <h5 class="card-title">WEjump ROPE Fanny Pack (15$)</h5>
+<!--                              Description Here-->
+                            <p class="card-text"></p>
+                            
+                              <div class = "add-to-cart">
+                              
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="UWB4T2JZVK4VN">
+<table>
+<tr><td><input type="hidden" name="on0" value="Colors">Colors</td></tr><tr><td><select name="os0">
+<option value="Red">Red $15.00 USD</option>
+<option value="Black">Black $15.00 USD</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" class ="add-to-cart-button" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+                              </div>
+                              
                           </div>
                         </div>
-                    </div>  
-                    <div class = "col-md-6 col-lg-4">
-                         <div class="card" style="width: 20rem;">
-                          <img class="card-img-top" src="./assets/icons/insta.png" alt="Card image cap">
+                    </div> 
+                    
+<!-- HAND Delivery                -->
+                    <div class = "col-12" id = "hand-delivery">
+                         <div class="card" style="width: 40%; min-width: 300px ">
+                          <img class="card-img-top" src="./assets/coming-soon.png" alt="Card image cap">
                           <div class="card-body">
-                            <h5 class="card-title">@wejumprope Instagram</h5>
-                            <p class="card-text">Do you want to perchase the wejmprope instagram page? Well now you can for the affodable price of like $7,000,000. Great Price :) </p>
-                            <a href="#" class="btn btn-primary">Buy this thing, yay!</a>
+                            <h5 class="card-title">WEjumpROPE Hand Delivery (1500$)</h5>
+<!--                              Description Here-->
+                            <p class="card-text"></p>
+                            
+                              <div class = "add-to-cart">
+                              
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="97TRA7MBA24AW">
+<input type="image" class ="add-to-cart-button" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+                              </div>
+
                           </div>
                         </div>
-                    </div>  
+                    </div> 
+                    
                 </div>
             </div>     
 <!--END Container -->
