@@ -188,18 +188,19 @@ html {
 /*Shop page CSS*/
 
 .item-option-bar {
- padding: 30px;
+    padding-top: 50px;
+    padding-left: 60px;
 }
 
 .item-option-bar .dropdown {
- padding: 30px;
+    float: left;
+}
+
+.item-option-bar .dropdown > a {
+    font-size: 30px
 }
 
 
-.dropdown a {
-    font-size: 25px;
-    width: 200px;
-}
 
 
 
